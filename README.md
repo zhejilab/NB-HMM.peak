@@ -31,7 +31,7 @@ This algorithm has been applied to identify transcriptional pausing sites of Pol
    cd peak-calling-nb-hmm
    ```
 
-2. Set up your environment:
+2. Set up your environment (change the environment name if needed):
    ```bash
    python -m venv venv
    source venv/bin/activate
