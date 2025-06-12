@@ -49,13 +49,11 @@ This algorithm has been applied to identify transcriptional pausing sites of Pol
 
 This will save the trained model as `hmm.pkl` and output predicted HMM p-value BED file tracks in the specified output directory.
 
----
 
 ## License
 
 This project is licensed under the MIT License.
 
----
 
 ## Contact
 
