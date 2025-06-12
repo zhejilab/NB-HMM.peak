@@ -8,14 +8,10 @@ from sklearn.utils import check_random_state
     #log_multivariate_normal_density,
     #distribute_covar_matrix_to_match_covariance_type, _validate_covars)
 from sklearn import cluster
-from scipy.stats import poisson
 from hmmlearn.base import _BaseHMM
 from scipy.stats import nbinom
 import hmmlearn
-#import _utils
-#from utils import iter_from_X_lengths, normalize, fill_covars, array2str
 import copy
-import numpy as np
 
 
 # Copied from scikit-learn 0.19.
