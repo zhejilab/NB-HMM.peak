@@ -654,10 +654,3 @@ class NegativeBinomialHMM(_BaseHMM):
                              % (str(self.r_.shape), str(r_mle.shape)))
         return r_mle
 
-'''
-model = NegativeBinomialHMM(n_components=2)
-X = np.array([1,23,1,1,1,3,5,7,9,1,2,3,4])
-X = X.reshape(-1,1)
-model = model.fit(X)
-print(model.decode(X))
-'''
